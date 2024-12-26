@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Host Grotesk', sans-serif;
+}
+
+.megamart {
+    max-width: 1440px;
+    width: 100%;
+    margin: 50px auto;
+    background-color: #FFFFFF;
+}
+
+.megamart .header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header .header-part-1 {
+    width: 1440px;
+    background-color: #F5F5F5;
+    padding: 14px 120px 14px 120px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-part-1 .entering {
+    color: #666666;
+
+    font-family: 'Host Grotesk', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-right: 576px;
+}
+
+.header-part-1 .location {
+    display: flex;
+    width: 336px;
+    height: 18px;
+    margin-right: 32px;
+}
+
+.location img {
+    margin-right: 6px;
+}
+
+.location .location-text {
+    width: ;
+    color: #666666;
+
+    font-family: 'Host Grotesk', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.header-part-1 .delivery {
+    display: flex;
+    width: 128px;
+    height: 18px;
+    margin-right: 32px;
+}
+
+.delivery img {
+    margin-right: 6px;
+}
+
+.delivery .delivery-text {
+    color: #666666;
+
+    font-family: 'Host Grotesk', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.header-part-1 .offer {
+    display: flex;
+    width: 82px;
+    height: 18px;
+}
+
+.offer img {
+    margin-right: 6px;
+}
+
+.offer .offer-text {
+    color: #666666;
+
+    font-family: 'Host Grotesk', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.header-part-2 {
+    width: 1440px;
+    background-color: #FFFFFF;
+    padding: 21px 120px 21px 120px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+
+.header-part-2 a .logo {
+    width: 48px;
+    height: 48px;
+    margin-right: 16px;;
+}
+
+.header-part-2 .title .title-org {
+    text-decoration: none;
+    width: 138px;
+    color: #008ECC;
+    margin-right: 220px;
+}
+
+.header-part-2 .search {
+    width: 507px;
+    height: 48px;
+    background-color: #F3F9FB;
+    display: flex;
+    align-items: center;
+    padding: 15px 15px 15px 15px;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+.search .search-photo {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+.search p {
+    font-family: 'Host Grotesk', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+    margin-right: 176px;
+}
+
+.header-part-2 .user {
+    width: 159px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.user img {
+    width: 24px;
+    height: 24px;
+    margin-right: 3px;
+}
+
+.user p {
+    font-family: 'Host Grotesk', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #666666;
+}
+
+.header-part-2 .cart {
+    width: 69px;
+    display: flex;
+    align-items: center;
+}
+
+.cart img {
+    width: 24px;
+    height: 24px;
+    margin-right: 3px;
+}
+
+.cart p {
+    font-family: 'Host Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #666666;
+}
+
+.header-part-3 {
+    width: 1440px;
+    background-color: #fff;
+    padding: 16px 120px 16px 120px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.header-part-3 .categories {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1201px;
+}
+
+.categories .groceries {
+    background-color: #008ECC;
+    width: 113px;
+    padding: 9px 14px 9px 14px;
+    border: none;
+    border-radius: 18px;
+}
+
+.groceries .blue {
+    font-family: 'Host Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+
+    color: #FFFFFF;
+}
+
+.categories .pm-fruits {
+    width: 148px;
+    background-color: #F5F5F5;
+    padding: 9px 14px 9px 14px;
+    border: none;
+    border-radius: 18px;
+}
+
+.names {
+    font-family: 'Host Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.categories .home-k {
+    width: 153px;
+    background-color: #F5F5F5;
+    padding: 9px 14px 9px 14px;
+    border: none;
+    border-radius: 18px;
+}
+
+.categories .fashion {
+    width: 101px;
+    background-color: #F5F5F5;
+    padding: 9px 14px 9px 14px;
+    border: none;
+    border-radius: 18px;
+}
+
+.categories .electronics {
+    width: 121px;
+    background-color: #F5F5F5;
+    padding: 9px 14px 9px 14px;
+    border: none;
+    border-radius: 18px;
+}
+
+.categories .beauty {
+    width: 96px;
+    background-color: #F5F5F5;
+    padding: 9px 14px 9px 14px;
+    border: none;
+    border-radius: 18px;
+}
+
+.categories .home-i {
+    width: 176px;
+    background-color: #F5F5F5;
+    padding: 9px 14px 9px 14px;
+    border: none;
+    border-radius: 18px;
+}
+
+.categories .stl {
+    width: 195px;
+    background-color: #F5F5F5;
+    padding: 9px 14px 9px 14px;
+    border: none;
+    border-radius: 18px;
+}
