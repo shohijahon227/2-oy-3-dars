@@ -276,3 +276,45 @@ body {
     border: none;
     border-radius: 18px;
 }
+
+.store .commercial {
+    width: 1201px;
+    margin: 50px auto;
+    background-color: #212844;
+    padding: 24px 125px 22px 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+    border-radius: 16px;
+}
+
+.commercial .info {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.info .little-title {
+    font-family: 'Host Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.info h2 {
+    font-family: 'Host Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 63px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    margin-right: 144px;
+}
+
+.info h4 {
+    font-family: 'Host Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #FFFFFF;
+}
