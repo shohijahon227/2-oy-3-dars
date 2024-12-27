@@ -318,3 +318,76 @@ body {
     font-size: 30px;
     color: #FFFFFF;
 }
+
+.title-for-1 {
+    font-family: 'Host Grotesk', sans-serif;
+font-size: 24px;
+font-weight: 700;
+color: #666666;
+width: 400px;
+transition: all 0.5s;
+margin-bottom: 40px;
+}
+
+.title-for-1:hover {
+    border-bottom: 3px solid #008ECC;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.products .card-phone {
+    width: 227px;
+    border: none;
+    border-radius: 16px;
+}
+
+.card-phone .phone-photo {
+    background-color: #F5F5F5;
+    padding: 15px 72px 15px 72px;
+    text-align: center;
+    margin-bottom: 12px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.card-phone .phone-info {
+    align-items: center;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+.phone-info h3 {
+    font-family: 'Host Grotesk', sans-serif;
+font-size: 16px;
+font-weight: 600;
+color: #000000;
+margin-left: 12px;
+margin-bottom: 10px;
+}
+
+.phone-info .prices .price {
+    font-family: 'Host Grotesk', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.prices .old-price {
+    font-family: 'Host Grotesk', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #222222;
+    margin-bottom: 20px;;
+}
+
+.phone-info .benefit h3 {
+    font-family: 'Host Grotesk';
+    font-size: 16px;
+    font-weight: 600;
+    color: #249B3E;
+    margin-bottom: 10px;
+}
